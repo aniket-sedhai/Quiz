@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A172AA232C3B94C600A5EBCB /* MultipleChoiceQuestion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A172AA222C3B94C600A5EBCB /* MultipleChoiceQuestion.cpp */; };
+		A172AA252C3BB25200A5EBCB /* TrueFalseQuestion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A172AA242C3BB25200A5EBCB /* TrueFalseQuestion.cpp */; };
 		A1A3E96D2C3B0B35001CD010 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A3E96C2C3B0B35001CD010 /* main.cpp */; };
+		A1A3E9752C3B0B9B001CD010 /* Question.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A3E9742C3B0B9B001CD010 /* Question.cpp */; };
+		A1A3E9782C3B0BF0001CD010 /* ShortAnswerQuestion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A3E9772C3B0BF0001CD010 /* ShortAnswerQuestion.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +27,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A172AA212C3B922500A5EBCB /* MultipleChoiceQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultipleChoiceQuestion.h; sourceTree = "<group>"; };
+		A172AA222C3B94C600A5EBCB /* MultipleChoiceQuestion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MultipleChoiceQuestion.cpp; sourceTree = "<group>"; };
+		A172AA242C3BB25200A5EBCB /* TrueFalseQuestion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TrueFalseQuestion.cpp; sourceTree = "<group>"; };
+		A172AA262C3BB27300A5EBCB /* TrueFalseQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrueFalseQuestion.h; sourceTree = "<group>"; };
 		A1A3E9692C3B0B35001CD010 /* Quiz */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Quiz; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1A3E96C2C3B0B35001CD010 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A1A3E9732C3B0B58001CD010 /* Question.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		A1A3E9742C3B0B9B001CD010 /* Question.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Question.cpp; sourceTree = "<group>"; };
+		A1A3E9762C3B0BCF001CD010 /* ShortAnswerQuestion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShortAnswerQuestion.h; sourceTree = "<group>"; };
+		A1A3E9772C3B0BF0001CD010 /* ShortAnswerQuestion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ShortAnswerQuestion.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				A1A3E96C2C3B0B35001CD010 /* main.cpp */,
+				A1A3E9732C3B0B58001CD010 /* Question.h */,
+				A1A3E9742C3B0B9B001CD010 /* Question.cpp */,
+				A1A3E9762C3B0BCF001CD010 /* ShortAnswerQuestion.h */,
+				A1A3E9772C3B0BF0001CD010 /* ShortAnswerQuestion.cpp */,
+				A172AA212C3B922500A5EBCB /* MultipleChoiceQuestion.h */,
+				A172AA242C3BB25200A5EBCB /* TrueFalseQuestion.cpp */,
+				A172AA262C3BB27300A5EBCB /* TrueFalseQuestion.h */,
+				A172AA222C3B94C600A5EBCB /* MultipleChoiceQuestion.cpp */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A3E9782C3B0BF0001CD010 /* ShortAnswerQuestion.cpp in Sources */,
+				A172AA232C3B94C600A5EBCB /* MultipleChoiceQuestion.cpp in Sources */,
+				A172AA252C3BB25200A5EBCB /* TrueFalseQuestion.cpp in Sources */,
 				A1A3E96D2C3B0B35001CD010 /* main.cpp in Sources */,
+				A1A3E9752C3B0B9B001CD010 /* Question.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
